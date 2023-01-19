@@ -1,0 +1,123 @@
+02:28:11 starting to load dataset from parsedFiles/ (with Tik-Tok)
+02:28:29 loaded 18400 items in dataset with 18400 labels
+using packet sizes
+02:28:29 split 14720 training, 1840 validation, and 1840 testing
+02:28:29 using NVIDIA GeForce GTX 1080
+02:28:30 epoch 0
+        training loss 4.222131021952225
+        validation accuracy 0.029347826086956522
+02:28:44 epoch 1
+        training loss 3.7329570196442683
+        validation accuracy 0.045108695652173916
+02:28:58 epoch 2
+        training loss 3.4811529749530856
+        validation accuracy 0.05217391304347826
+02:29:12 epoch 3
+        training loss 3.241941217648781
+        validation accuracy 0.07934782608695652
+02:29:27 epoch 4
+        training loss 3.032509343098786
+        validation accuracy 0.08423913043478261
+02:29:41 epoch 5
+        training loss 2.839092828459659
+        validation accuracy 0.09021739130434783
+02:29:57 epoch 6
+        training loss 2.6666220365944557
+        validation accuracy 0.10815217391304348
+02:30:11 epoch 7
+        training loss 2.5422740871623413
+        validation accuracy 0.09782608695652174
+02:30:27 epoch 8
+        training loss 2.393444994748649
+        validation accuracy 0.11793478260869565
+02:30:42 epoch 9
+        training loss 2.2626472974227645
+        validation accuracy 0.13695652173913042
+02:30:57 epoch 10
+        training loss 2.1376928515353444
+        validation accuracy 0.13369565217391305
+02:31:12 epoch 11
+        training loss 2.0334919307191495
+        validation accuracy 0.15978260869565217
+02:31:27 epoch 12
+        training loss 1.9515817670498865
+        validation accuracy 0.16793478260869565
+02:31:43 epoch 13
+        training loss 1.8664246474282216
+        validation accuracy 0.17173913043478262
+02:31:58 epoch 14
+        training loss 1.7926802130068762
+        validation accuracy 0.2048913043478261
+02:32:13 epoch 15
+        training loss 1.7195711135864258
+        validation accuracy 0.1826086956521739
+02:32:28 epoch 16
+        training loss 1.6371627945010945
+        validation accuracy 0.20597826086956522
+02:32:43 epoch 17
+        training loss 1.5601162829641568
+        validation accuracy 0.19782608695652174
+02:32:58 epoch 18
+        training loss 1.487618102865704
+        validation accuracy 0.21141304347826087
+02:33:13 epoch 19
+        training loss 1.4589299488875827
+        validation accuracy 0.22771739130434782
+02:33:29 epoch 20
+        training loss 1.4051816221010887
+        validation accuracy 0.2375
+02:33:44 epoch 21
+        training loss 1.3537590786562128
+        validation accuracy 0.23097826086956522
+02:34:00 epoch 22
+        training loss 1.3170899758904666
+        validation accuracy 0.23695652173913043
+02:34:15 epoch 23
+        training loss 1.2401223485752688
+        validation accuracy 0.22554347826086957
+02:34:30 epoch 24
+        training loss 1.2390133425340815
+        validation accuracy 0.2483695652173913
+02:34:45 epoch 25
+        training loss 1.193303290060011
+        validation accuracy 0.2483695652173913
+02:35:01 epoch 26
+        training loss 1.1426549594281084
+        validation accuracy 0.2608695652173913
+02:35:16 epoch 27
+        training loss 1.1048299680321902
+        validation accuracy 0.2782608695652174
+02:35:31 epoch 28
+        training loss 1.0713649957866993
+        validation accuracy 0.26032608695652176
+02:35:46 epoch 29
+        training loss 1.035817078614639
+        validation accuracy 0.2483695652173913
+02:36:02 made 1840 predictions with 1840 labels
+        threshold  0.0, accuracy 0.39   [tp   721, fp  1119, fn     0]
+                 0   0.0,   1   0.0,   2   0.0,   3   0.0,   4   0.0,   5   0.0,   6   0.0,   7   0.0,   8   0.0,   9  0.25,
+                10   0.9,  11   1.0,  12  0.65,  13  0.75,  14   0.7,  15   0.8,  16  0.05,  17   0.7,  18  0.65,  19  0.35,
+                20   0.4,  21   0.4,  22   0.8,  23   0.1,  24   0.6,  25  0.25,  26   1.0,  27   0.9,  28  0.85,  29   0.4,
+                30  0.85,  31   0.9,  32  0.55,  33  0.75,  34   0.6,  35   0.2,  36   0.8,  37   0.6,  38   1.0,  39  0.35,
+                40  0.65,  41  0.75,  42   0.9,  43   0.0,  44   0.0,  45   0.0,  46   0.0,  47   0.1,  48   0.0,  49  0.15,
+                50   0.0,  51   0.4,  52   0.1,  53   0.8,  54  0.75,  55   0.0,  56  0.65,  57   0.4,  58  0.45,  59  0.05,
+                60   0.0,  61   0.7,  62   0.5,  63   0.3,  64   0.6,  65  0.65,  66  0.75,  67   0.1,  68  0.95,  69   0.8,
+                70  0.45,  71   0.6,  72  0.65,  73   0.0,  74   0.0,  75   0.0,  76   0.0,  77   0.0,  78   0.0,  79   0.0,
+                80   0.0,  81   0.8,  82  0.45,  83  0.75,  84  0.25,  85  0.25,  86   0.4,  87   0.0,  88  0.05,  89  0.55,
+                90  0.25,  91   0.0,
+        threshold 0.11, accuracy 0.39   [tp   721, fp  1111, fn     8]
+        threshold 0.35, accuracy 0.37   [tp   689, fp   708, fn   443]
+        threshold 0.53, accuracy 0.32   [tp   592, fp   426, fn   822]
+        threshold 0.66, accuracy 0.28   [tp   507, fp   256, fn  1077]
+        threshold 0.75, accuracy 0.24   [tp   439, fp   169, fn  1232]
+        threshold 0.82, accuracy 0.21   [tp   385, fp   123, fn  1332]
+        threshold 0.87, accuracy 0.18   [tp   336, fp   104, fn  1400]
+        threshold 0.91, accuracy 0.16   [tp   289, fp    75, fn  1476]
+        threshold 0.93, accuracy 0.14   [tp   264, fp    60, fn  1516]
+        threshold 0.95, accuracy 0.13   [tp   231, fp    43, fn  1566]
+        threshold 0.96, accuracy 0.11   [tp   210, fp    33, fn  1597]
+        threshold 0.97, accuracy 0.098   [tp   180, fp    22, fn  1638]
+        threshold 0.98, accuracy 0.082   [tp   150, fp    10, fn  1680]
+        threshold 0.99, accuracy 0.07   [tp   128, fp     5, fn  1707]
+        threshold 0.99, accuracy 0.061   [tp   112, fp     2, fn  1726]
+saved testing results to result/3_2-tiktok.csv

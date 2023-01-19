@@ -1,0 +1,135 @@
+----------------------------------------------
+First test run using twitch.tv stream traffic.
+* Incomplete dataset (not enough to fill test and validation set). 
+* Bad quality (gaps in traffic in some files). 
+* Only combined data in validation and testing. (no_train.py)
+
+Dataset used: captures1.txt parsedFiles1.zip
+
+As expected the DF model performs really badly since it doesn't get to chance to train on the dataset. 
+The test and validation set also gets flooded by the amount of traffic that twitch sends.
+There are some places where it makes a right prediction but this might be because of the bad quality parts of the dataset.
+----------------------------------------------
+
+01:02:13 starting to load dataset from parsedFiles/ (with packet sizes)
+01:02:19 loaded 18400 items in dataset with 18400 labels
+using packet sizes
+01:02:19 split 14720 training, 1840 validation, and 1840 testing
+01:02:19 using NVIDIA GeForce GTX 1080
+01:02:20 epoch 0
+        training loss 3.36416592840421
+        validation accuracy 0.4407608695652174
+01:02:34 epoch 1
+        training loss 1.7849826610694497
+        validation accuracy 0.5847826086956521
+01:02:47 epoch 2
+        training loss 1.0328224594310178
+        validation accuracy 0.6809782608695653
+01:03:01 epoch 3
+        training loss 0.6171269411757841
+        validation accuracy 0.6951086956521739
+01:03:14 epoch 4
+        training loss 0.40349386253599395
+        validation accuracy 0.7114130434782608
+01:03:28 epoch 5
+        training loss 0.28421898918636773
+        validation accuracy 0.7179347826086957
+01:03:43 epoch 6
+        training loss 0.21493097382076717
+        validation accuracy 0.7059782608695652
+01:03:57 epoch 7
+        training loss 0.1660214038723606
+        validation accuracy 0.7195652173913043
+01:04:11 epoch 8
+        training loss 0.1306449859324148
+        validation accuracy 0.7233695652173913
+01:04:26 epoch 9
+        training loss 0.10868846233618462
+        validation accuracy 0.7380434782608696
+01:04:40 epoch 10
+        training loss 0.09002651110038919
+        validation accuracy 0.75
+01:04:55 epoch 11
+        training loss 0.07371056345054659
+        validation accuracy 0.753804347826087
+01:05:09 epoch 12
+        training loss 0.06899786273301659
+        validation accuracy 0.7375
+01:05:24 epoch 13
+        training loss 0.057920719859963755
+        validation accuracy 0.7375
+01:05:38 epoch 14
+        training loss 0.05170745093186023
+        validation accuracy 0.7288043478260869
+01:05:52 epoch 15
+        training loss 0.04456803092133191
+        validation accuracy 0.7456521739130435
+01:06:07 epoch 16
+        training loss 0.04515390180177608
+        validation accuracy 0.7489130434782608
+01:06:21 epoch 17
+        training loss 0.0410592866966785
+        validation accuracy 0.7358695652173913
+01:06:35 epoch 18
+        training loss 0.03619176098855875
+        validation accuracy 0.7592
+01:06:49 epoch 19
+        training loss 0.03442918237740711
+        validation accuracy 0.75
+01:07:04 epoch 20
+        training loss 0.02930841315537691
+        validation accuracy 0.7614130434782609
+01:07:18 epoch 21
+        training loss 0.027280912292584523
+        validation accuracy 0.753804347826087
+01:07:32 epoch 22
+        training loss 0.026129304605015252
+        validation accuracy 0.7646739130434783
+01:07:46 epoch 23
+        training loss 0.025730077982327695
+        validation accuracy 0.7576086956521739
+01:08:01 epoch 24
+        training loss 0.02499265256890301
+        validation accuracy 0.7554347826086957
+01:08:15 epoch 25
+        training loss 0.02106208782800931
+        validation accuracy 0.7608695652173914
+01:08:29 epoch 26
+        training loss 0.020890514461039487
+        validation accuracy 0.7516304347826087
+01:08:44 epoch 27
+        training loss 0.018617649444268417
+        validation accuracy 0.7733695652173913
+01:08:58 epoch 28
+        training loss 0.019700641001937753
+        validation accuracy 0.7559782608695652
+01:09:13 epoch 29
+        training loss 0.016487685016403766
+        validation accuracy 0.7701086956521739
+01:09:28 made 1840 predictions with 1840 labels
+        threshold  0.0, accuracy 0.072   [tp   133, fp  1707, fn     0]
+                 0   0.0,   1   0.0,   2   0.0,   3   0.0,   4   0.0,   5  0.65,   6   0.0,   7  0.15,   8   0.0,   9   0.1,  
+                 10  0.05,  11  0.05,  12   0.0,  13   0.0,  14  0.35,  15   0.6,  16   0.0,  17   0.3,  18   0.3,  19  0.45,
+                20   0.0,  21   0.0,  22   0.1,  23   0.0,  24  0.15,  25   0.2,  26   0.3,  27   0.1,  28   0.1,  29  0.05,
+                30  0.55,  31   0.0,  32  0.35,  33  0.05,  34  0.05,  35   0.0,  36   0.0,  37   0.0,  38   0.0,  39   0.1,
+                40   0.0,  41   0.7,  42   0.0,  43   0.0,  44   0.3,  45   0.0,  46   0.0,  47   0.0,  48   0.0,  49   0.0,
+                50   0.0,  51   0.0,  52   0.0,  53   0.0,  54   0.0,  55   0.0,  56   0.0,  57   0.0,  58   0.0,  59   0.0, 
+                60   0.0,  61   0.0,  62   0.0,  63  0.05,  64   0.0,  65  0.05,  66   0.0,  67   0.0,  68   0.0,  69   0.0,  
+                70   0.0,  71   0.0,  72   0.0,  73   0.0,  74   0.0,  75  0.05,  76   0.0,  77   0.0,  78   0.0,  79   0.0,  
+                80   0.0,  81   0.0,  82   0.0,  83   0.0,  84   0.0,  85   0.0,  86   0.0,  87   0.0,  88   0.0,  89  0.25,  
+                90  0.15,  91   0.0,
+        threshold 0.11, accuracy 0.072   [tp   133, fp  1707, fn     0]
+        threshold 0.35, accuracy 0.071   [tp   131, fp  1621, fn    88]
+        threshold 0.53, accuracy 0.067   [tp   123, fp  1255, fn   462]
+        threshold 0.66, accuracy 0.061   [tp   113, fp   908, fn   819]
+        threshold 0.75, accuracy 0.059   [tp   108, fp   688, fn  1044]
+        threshold 0.82, accuracy 0.055   [tp   101, fp   506, fn  1233]
+        threshold 0.87, accuracy 0.05   [tp    91, fp   389, fn  1360]
+        threshold 0.91, accuracy 0.046   [tp    84, fp   282, fn  1474]
+        threshold 0.93, accuracy 0.043   [tp    80, fp   219, fn  1541]
+        threshold 0.95, accuracy 0.041   [tp    76, fp   166, fn  1598]
+        threshold 0.96, accuracy 0.037   [tp    68, fp   115, fn  1657]
+        threshold 0.97, accuracy 0.035   [tp    65, fp    80, fn  1695]
+        threshold 0.98, accuracy 0.033   [tp    60, fp    56, fn  1724]
+        threshold 0.99, accuracy 0.032   [tp    58, fp    38, fn  1744]
+        threshold 0.99, accuracy 0.028   [tp    51, fp    22, fn  1767]

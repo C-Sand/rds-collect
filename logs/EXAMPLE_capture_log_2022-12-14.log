@@ -1,0 +1,112 @@
+2022-12-14 16:48:42 | Starting capture
+2022-12-14 16:48:42 | Read 5 containers from config
+2022-12-14 16:48:42 | Running container with name: container_1
+2022-12-14 16:48:42 | Visiting URL: https://twitch.tv/chillmusic24_7
+2022-12-14 16:48:43 | Running container with name: container_2
+2022-12-14 16:48:43 | Visiting URL: https://twitch.tv/immobiliareqro
+2022-12-14 16:48:43 | Running container with name: container_3
+2022-12-14 16:48:43 | Visiting URL: https://twitch.tv/quodgamestv
+2022-12-14 16:48:43 | Running container with name: container_4
+2022-12-14 16:48:43 | Visiting URL: https://twitch.tv/justastreamchannel
+2022-12-14 16:48:44 | Running container with name: container_5
+2022-12-14 16:48:44 | Visiting URL: https://twitch.tv
+2022-12-14 16:48:44 | 5 containers started
+
+2022-12-14 16:48:44 | Grabbing container interfaces...
+
+2022-12-14 16:48:44 | Creating capture file: pcaps/tshark_2h_twitch-chillmusic24_7_stream_2022-12-14.pcap
+2022-12-14 16:48:44 | Capturing on interface: veth7ae129e6
+2022-12-14 16:48:44 | Name and PID on veth7ae129e6: container_1 549618
+
+2022-12-14 16:48:44 | Creating capture file: pcaps/tshark_2h_twitch-immobiliareqro_stream_2022-12-14.pcap
+2022-12-14 16:48:44 | Capturing on interface: veth8b135cb6
+2022-12-14 16:48:44 | Name and PID on veth8b135cb6: container_2 549639
+
+2022-12-14 16:48:44 | Creating capture file: pcaps/tshark_2h_twitch-quodgamestv_stream_2022-12-14.pcap
+2022-12-14 16:48:44 | Capturing on interface: veth1c3a9937
+2022-12-14 16:48:44 | Name and PID on veth1c3a9937: container_3 549664
+
+2022-12-14 16:48:44 | Creating capture file: pcaps/tshark_2h_twitch-justastreamchannel_stream_2022-12-14.pcap
+2022-12-14 16:48:44 | Capturing on interface: veth9517f5a2
+2022-12-14 16:48:44 | Name and PID on veth9517f5a2: container_4 549681
+
+2022-12-14 16:48:44 | Creating capture file: pcaps/tshark_2h_twitch-featured_stream_2022-12-14.pcap
+2022-12-14 16:48:44 | Capturing on interface: veth8f466c6f
+2022-12-14 16:48:44 | Name and PID on veth8f466c6f: container_5 549703
+
+2022-12-14 18:48:44 | 549618 container_1 with time 2h has finished capturing.
+2022-12-14 18:48:44 | 549639 container_2 with time 2h has finished capturing.
+2022-12-14 18:48:44 | 549664 container_3 with time 2h has finished capturing.
+2022-12-14 18:48:44 | 549681 container_4 with time 2h has finished capturing.
+2022-12-14 18:48:44 | 549703 container_5 with time 2h has finished capturing.
+2022-12-14 18:48:44 | Finished running all capture.
+2022-12-14 18:48:44 | Cleaning up...
+2022-12-14 18:48:44 | Stopping containers...
+2022-12-14 18:48:55 | Stopped containers
+
+2022-12-14 19:51:32 | Starting capture
+2022-12-14 19:51:32 | Read 10 containers from config
+2022-12-14 19:51:33 | Running container with name: container_1
+2022-12-14 19:51:33 | Visiting URL: https://twitch.tv/esamarathon
+2022-12-14 19:51:33 | Running container with name: container_2
+2022-12-14 19:51:33 | Visiting URL: https://twitch.tv/
+2022-12-14 19:51:34 | Running container with name: container_3
+2022-12-14 19:51:34 | Visiting URL: https://twitch.tv/streamerhouse
+2022-12-14 19:51:34 | Running container with name: container_4
+2022-12-14 19:51:34 | Visiting URL: https://twitch.tv/ridingtherailstv
+2022-12-14 19:51:34 | Running container with name: container_5
+2022-12-14 19:51:34 | Visiting URL: https://twitch.tv/public_domain_television
+2022-12-14 19:51:35 | Running container with name: container_6
+2022-12-14 19:51:35 | Visiting URL: https://twitch.tv/francoescamillalive
+2022-12-14 19:51:35 | Running container with name: container_7
+2022-12-14 19:51:35 | Visiting URL: https://twitch.tv/retrolongplay
+2022-12-14 19:51:36 | Running container with name: container_8
+2022-12-14 19:51:36 | Visiting URL: https://twitch.tv/reallyreallylongathon
+2022-12-14 19:51:36 | Running container with name: container_9
+2022-12-14 19:51:36 | Visiting URL: https://twitch.tv/fgfm
+2022-12-14 19:51:37 | Running container with name: container_10
+2022-12-14 19:51:37 | Visiting URL: https://twitch.tv/pdcinema
+2022-12-14 19:51:37 | 10 containers started
+
+2022-12-14 19:51:37 | Grabbing container interfaces...
+
+2022-12-14 19:51:37 | Creating capture file: pcaps/tshark_10h_twitch-esamarathon_stream_2022-12-14.pcap
+2022-12-14 19:51:37 | Capturing on interface: vethb826aba3
+2022-12-14 19:51:37 | Name and PID on vethb826aba3: container_1 567732
+
+2022-12-14 19:51:37 | Creating capture file: pcaps/tshark_10h_twitch-frontpage_stream_2022-12-14.pcap
+2022-12-14 19:51:37 | Capturing on interface: veth47845a81
+2022-12-14 19:51:37 | Name and PID on veth47845a81: container_2 567755
+
+2022-12-14 19:51:37 | Creating capture file: pcaps/tshark_10h_twitch-streamerhouse_stream_2022-12-14.pcap
+2022-12-14 19:51:37 | Capturing on interface: veth4d25dfa7
+2022-12-14 19:51:37 | Name and PID on veth4d25dfa7: container_3 567773
+
+2022-12-14 19:51:37 | Creating capture file: pcaps/tshark_10h_twitch-ridingtherailstv_stream_2022-12-14.pcap
+2022-12-14 19:51:37 | Capturing on interface: veth47527bcc
+2022-12-14 19:51:37 | Name and PID on veth47527bcc: container_4 567811
+
+2022-12-14 19:51:37 | Creating capture file: pcaps/tshark_10h_twitch-public_domain_television_stream_2022-12-14.pcap
+2022-12-14 19:51:37 | Capturing on interface: veth3acdd292
+2022-12-14 19:51:37 | Name and PID on veth3acdd292: container_5 567851
+
+2022-12-14 19:51:37 | Creating capture file: pcaps/tshark_10h_twitch-francoescamillalive_stream_2022-12-14.pcap
+2022-12-14 19:51:37 | Capturing on interface: veth85917e7f
+2022-12-14 19:51:37 | Name and PID on veth85917e7f: container_6 567864
+
+2022-12-14 19:51:37 | Creating capture file: pcaps/tshark_10h_twitch-retrolongplay_stream_2022-12-14.pcap
+2022-12-14 19:51:37 | Capturing on interface: vethacfb9646
+2022-12-14 19:51:37 | Name and PID on vethacfb9646: container_7 567881
+
+2022-12-14 19:51:37 | Creating capture file: pcaps/tshark_10h_twitch-reallyreallylongathon_stream_2022-12-14.pcap
+2022-12-14 19:51:37 | Capturing on interface: vethd41a5650
+2022-12-14 19:51:37 | Name and PID on vethd41a5650: container_8 567917
+
+2022-12-14 19:51:37 | Creating capture file: pcaps/tshark_10h_twitch-fgfm_stream_2022-12-14.pcap
+2022-12-14 19:51:37 | Capturing on interface: veth53002d78
+2022-12-14 19:51:37 | Name and PID on veth53002d78: container_9 567951
+
+2022-12-14 19:51:37 | Creating capture file: pcaps/tshark_10h_twitch-pdcinema_stream_2022-12-14.pcap
+2022-12-14 19:51:37 | Capturing on interface: veth2360aa34
+2022-12-14 19:51:37 | Name and PID on veth2360aa34: container_10 567972
+
