@@ -44,8 +44,6 @@ Jon-Erik Ersson
 
 ## License
 
-## Project status
-
 # Docs
 
 ## Some commands to remember
@@ -84,7 +82,7 @@ Running df-fitness default with training
 ./df-fitness.py -d parsedFiles/ --train
 ```
 
-If we want to use raw files from the web-traffic dataset (crossFiles). For example when when only using the noise data for testing and validation sets.
+If we want to use raw files from the web-traffic dataset (crossFiles). For example when only using the noise data for testing and validation sets.
 
 ```
 rsync -a crossFiles/ parsedFiles/ --ignore-existing
