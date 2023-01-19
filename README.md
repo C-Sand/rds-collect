@@ -48,19 +48,6 @@ Jon-Erik Ersson
 
 # Docs
 
-## Streams originally used
-
-1.  https://www.twitch.tv/esamarathon esamarathon
-2.  https://www.twitch.tv frontpage
-3.  https://www.twitch.tv/streamerhouse streamerhouse
-4.  https://www.twitch.tv/ridingtherailstv ridingtherailstv
-5.  https://www.twitch.tv/public_domain_television public_domain_television
-6.  https://www.twitch.tv/francoescamillalive francoescamillalive
-7.  https://www.twitch.tv/retrolongplay retrolongplay
-8.  https://www.twitch.tv/reallyreallylongathon reallyreallylongathon
-9.  https://www.twitch.tv/fgfm fgfm
-10. https://www.twitch.tv/pdcinema pdcinema
-
 ## Some commands to remember
 
 Podman
